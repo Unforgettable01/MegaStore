@@ -1,0 +1,50 @@
+
+body{
+font-size: large;
+}
+
+.main_navbar{
+ font-size: 30px;
+}
+.index_news{
+ background-color: #eee;
+
+    color: #666;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nb{
+display: block;
+}
+
+.bt{
+ background-color:DodgerBlue;
+ }
+ form{
+ background-color: white
+}
+
+.myClass{
+position:relative;
+animation-name: image_news;
+animation-duration: 2s;
+}
+ @keyframes  image_news{
+ 0%{
+ left:0px;
+ }
+ 50%{
+ left:550px;
+ }
+ 100%{
+  left:0px;
+  }
+ }
+
+ .NewsCenterText{
+ text-align:center;
+ font-size: 30px;
+ }
