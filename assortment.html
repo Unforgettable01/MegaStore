@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Ассортимнет</title>                             <!-- Заголовок  - название вкладки-->
+    <title>Ассортимнет - МегаСклад</title>                             <!-- Заголовок  - название вкладки-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"
@@ -40,7 +40,7 @@
             <div class="main_navbar collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="main_navbar navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="assortment.html">Ассортимент</a>
+                        <a class="nav-link active" aria-current="page" href="assortment.html?#">Ассортимент</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="Operation.html">Услуги</a>
@@ -55,24 +55,17 @@
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class=" bt btn btn-secondary" type="submit">Поиск</button>
                 </form>
-                <li class="nav-item">
-                    <button type="button" class=" bt btn btn-secondary "onclick="window.location.href = 'Authorization.html';">Личный кабинет</button>
-                </li>
+                <ul class="main_navbar navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <button type="button" class=" bt btn btn-secondary "onclick="window.location.href = 'Authorization.html';">Личный кабинет</button>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
-    <!-- <nav aria-label="breadcrumb"align="center">
-         <ol class="breadcrumb">
-             <li class="breadcrumb-item"><a href="#">Home</a></li>
-             <li class="breadcrumb-item active" aria-current="page">Library</li>
-         </ol>
-     </nav>-->
-
     <div class="btn-group-vertical">
 
     </div>
-
-
     <div class="row">
         <div class="col-sm-3" >
         </div>
@@ -98,55 +91,53 @@
                 <li class="list-group-item">Строительные материалы</li>
             </ul>
         </div>
-
         <div class ="col-sm-9">
             <form>
-            <table class="table">
-                <thead>
-                <tr>
-                    <th scope="col">Название</th>
-                    <th scope="col">Цена</th>
-                    <th scope="col">Наличие</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td>Плитка настенная <br/> Azori, 20,1*40,5 см</td>
-                    <td>645 руб./м2</td>
-                    <td><p align="center">Есть в наличии</p><p align="center">(110)</p></td>
-                </tr>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Название</th>
+                        <th scope="col">Цена</th>
+                        <th scope="col">Наличие</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Плитка настенная <br/> Azori, 20,1*40,5 см</td>
+                        <td>645 руб./м2</td>
+                        <td><p align="center">Есть в наличии</p><p align="center">(110)</p></td>
+                    </tr>
                     <td>Плитка напольная Golden Tile Вельвет, 30*30 см</td>
                     <td>595 руб./м2</td>
-                <td><p align="center">Есть в наличии</p><p align="center">(10)</p></td>
-                </tr>
-                <tr>
-                    <td>Плитка настенная InterCerama Fluid, 23*40 см</td>
-                    <td>949 руб./м2</td>
-                    <td><p align="center">Есть в наличии</p><p align="center">(336)</p></td>
-                </tr>
-                </tbody>
-            </table>
+                    <td><p align="center">Есть в наличии</p><p align="center">(10)</p></td>
+                    </tr>
+                    <tr>
+                        <td>Плитка настенная InterCerama Fluid, 23*40 см</td>
+                        <td>949 руб./м2</td>
+                        <td><p align="center">Есть в наличии</p><p align="center">(336)</p></td>
+                    </tr>
+                    </tbody>
+                </table>
 
                 <nav aria-label="Page navigation example">
-                <ul class="pagination">
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                        </a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+                    <ul class="pagination">
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </form>
         </div>
-
     </div>
 </div>
 </body>
