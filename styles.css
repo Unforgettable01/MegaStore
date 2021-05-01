@@ -1,6 +1,8 @@
 
 body{
+background: #000 url(Pictures/icons.jpg);
 font-size: large;
+
 }
 
 .main_navbar{
@@ -27,6 +29,15 @@ display: block;
  background-color: white
 }
 
+.buttonEnter {
+    height:100%;
+    width:100%;
+    color:White;
+    background-color:DodgerBlue;
+    padding: 10px; /* Поля вокруг текста */
+    border-radius: 5px; /* Уголки */
+}
+
 .myClass{
 position:relative;
 animation-name: image_news;
@@ -46,5 +57,11 @@ animation-duration: 2s;
 
  .NewsCenterText{
  text-align:center;
+ text-color: white;
  font-size: 30px;
+
  }
+
+.TextNews{
+color:red;
+}
